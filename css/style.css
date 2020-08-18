@@ -1,0 +1,147 @@
+
+
+
+
+  h3 {
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif!important;
+    color: black;
+    font-size: 1.6em;
+  }
+.footer-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid darkgray;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;  
+  padding-right: 1%;
+}
+
+  .footer-title {
+    padding-left: 1%;
+    padding-top: 0.8%;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+  }
+
+
+
+.form-control {
+  display: block;
+  width: 40%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.form-container {
+
+  border: 5px solid red;
+}
+
+/******************************/
+/* BANNER */ 
+/******************************/
+
+.sur-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30em;
+  background-image: url(images/event_banner_design.jpg);
+}
+  .banner {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+  }
+
+    .gros-titre {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+    }
+
+    .petit-titre {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+    }
+
+    .banner-text {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+    }
+
+    body, html {
+      height: 100%;
+    }
+    .sur-banner {
+      /* The image used */
+      background-image: url("https://cdn.futura-sciences.com/buildsv6/images/largeoriginal/5/c/a/5cac543f48_50151060_ocean-coraux.jpg");
+    
+      /* Half height */
+      height: 65%;
+    
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+  .sur-sm-banner {
+    /* The image used */
+    background-image: url("https://cdn.futura-sciences.com/buildsv6/images/largeoriginal/5/c/a/5cac543f48_50151060_ocean-coraux.jpg");
+
+    /* Half height */
+    height: 35%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+/******************************/
+/* CARDS */ 
+/******************************/
+
+.just-center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.attendees-list {
+  background-color: lightskyblue;
+  border: 5px solid lightskyblue;
+}
+
+
+.cities-list {
+  background-color: lightsalmon;
+  border: 5px solid lightsalmon;
+}
+
